@@ -20,8 +20,8 @@ app.get('/', (req, res) => {
   res.send('Welcome!')
 })
 
-app.use('/api/v1/auth', authRouter)
-app.use('/api/v1/jobs', jobRouter)
+app.use('/api/auth', authRouter)
+app.use('/api/jobs', jobRouter)
 
 app.use(notFoundMiddleware)
 app.use(errorHandlerMiddleware)
