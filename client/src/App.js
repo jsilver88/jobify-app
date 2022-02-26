@@ -1,12 +1,6 @@
 import { Landing } from './pages'
 import { Register } from './pages'
-import {
-  AllJobs,
-  Profile,
-  Stats,
-  SharedLayout,
-  AddJob,
-} from './pages/dashboard'
+import { AllJobs, Profile, Stats, SharedLayout, AddJob } from './pages/main'
 import { Error, ProtectedRoute } from './pages'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 
